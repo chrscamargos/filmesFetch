@@ -18,7 +18,7 @@ filmesFetch/
 
 ## Configuração da API Key
 
-O projeto consome a API do TMDB, que exige uma chave de autenticação. Por questões de segurança, o arquivo `js/config.js` (onde a chave fica armazenada) não é versionado no repositório — ele está listado no `.gitignore`.
+O projeto consome a API do TMDB, que exige uma chave de autenticação. Por questões de segurança, o arquivo `js/config.js` não é versionado no repositório, ele está listado no `.gitignore`.
 
 Para rodar o projeto localmente:
 
@@ -29,5 +29,3 @@ Para rodar o projeto localmente:
 const API_KEY = "sua_chave_aqui";
 ```
 4. Abra o `index.html` no navegador (recomendado usar Live Server)
-
-**Observação:** por ser um projeto apenas front-end, a chave de API fica visível no navegador. Isso não pode ser evitado sem um backend.
